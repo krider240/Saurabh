@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <title>Position</title>
+        <style>
+        .container{
+            height: 1200px;
+            border: 1px solid;
+            width: 50%;
+            position: relative;
+        }
+        .absolute-box{
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            }
+            .fixed-box{
+                position: fixed;
+                left: 20px;
+                bottom: 0%;
+            }
+            .sticky-box{
+                position: sticky;
+                top: 10px;
+                right: 100px;
+            }
+            .static-box{
+                position: static;
+
+            }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="static-box">Static Position</div>
+            <div class="relative-box">Relative Position</div>
+            <div class="absolute-box">Absolute Position</div>
+            <div class="fixed-box">Fixed Position</div>
+            <div class="sticky-box">Sticky Position</div>
+        </div>
+        <div class="container">  
+            <div class="static-box">Static Position</div>
+            <div class="relative-box">Relative Position</div>
+            <div class="absolute-box">Absolute Position</div>
+            <div class="fixed-box">Fixed Position</div>
+            <div class="sticky-box">Sticky Position</div>
+        </div>
+    </body>
+    </html>

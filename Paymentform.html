@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <style>
+   *{
+      background-color: rgb(206, 211, 211);
+    }
+    .A{
+        display:inline-block
+    }
+
+    </style>
+</head>
+<body>
+    <h2>Payment Information</h2>
+    <div class="A">
+        <span>Name on the card <input type="text" name="name" id="name"></span>
+    <span> Enter card number * <input type="number" required></span></div>
+<p> Enter CVV * <input type="password" required></p>
+    <span>Enter card details</span>
+  <select name="card_details" id="card_details">
+    <option value="">--Select a card type--</option>
+    <option value="Visa">Visa</option>
+    <option value="Rupay">Rupay</option>
+    <option value="Mastercard">Mastercard</option>
+  </select>
+    <span> Enter card number * <input type="number" required></span>
+<p>Card Expiration Date*: <input type="date" name="exp_date" id="exp_date" required></p>
+<input type="submit" value="Pay Now">
+</body>
+</html>
